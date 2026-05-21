@@ -27,7 +27,6 @@ while [[ -z "$S3_BUCKET_NAME" ]]; do
 
   if [[ -z "$S3_BUCKET_NAME" ]]; then
     YC_CLI_INITIALIZATION_SILENCE=true yc storage bucket list
-    echo "S3 terraform state bucket name :"
   fi
 done
 
