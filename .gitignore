@@ -10,7 +10,3 @@
 !README.md
 !bash/
 !templates/
-
-# ---
-
-backend.s3.tf
