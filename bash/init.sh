@@ -2,7 +2,7 @@
 
 printf "Lockbox TF secret name [default : ls--terraform-key] : "
 read TF_SECRET_NAME
-TF_SECRET_NAME=${TF_KEY_SECRET_NAME:-"ls--terraform-key"}
+TF_SECRET_NAME=${TF_SECRET_NAME:-"ls--terraform-key"}
 
 printf "Lockbox TF secret key [default : ls__terraform_key] : "
 read TF_SECRET_KEY
