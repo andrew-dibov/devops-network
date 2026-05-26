@@ -6,6 +6,8 @@ resource "yandex_compute_instance" "ci__bastion" {
   hostname    = var.ci__bastion_hostname
   description = var.ci__bastion_description
 
+  allow_stopping_for_update = true
+
   resources {
     cores         = 2
     memory        = 2
@@ -26,7 +28,7 @@ resource "yandex_compute_instance" "ci__bastion" {
   }
 
   scheduling_policy {
-    preemptible = true
+    preemptible = false
   }
 
   metadata = {
