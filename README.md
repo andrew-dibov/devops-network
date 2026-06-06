@@ -43,7 +43,7 @@ VM с публичным IP и группой безопасности :
 | Категория | Технологии/Инструменты | Навыки |
 | :-- | :-- | :-- |
 | **Infrastructure as Code** | Terraform, Yandex Provider | Управление сетевыми ресурсами, управление секретами, параметризация через переменные окружения|
-| **Yandex Cloud** | VPC, Public/Private Subnets, NAT Gateway, Route Tables, SEcurity Groups | Проектирование сети, изоляция подсетей, настройка маршрутизации и правил безопасности |
+| **Yandex Cloud** | VPC, Public/Private Subnets, NAT Gateway, Route Tables, Security Groups | Проектирование сети, изоляция подсетей, настройка маршрутизации и правил безопасности |
 | **Automation & Scripting** | Bash, jq, CLI | Извлечение секретов Lockbox, конфигурация бэкенда, инициализация окружения |
 | **Security** | SSH, Lockbox, IAM-роли, Bastion | Безопасное хранение ключей, принцип минимальных привилегий |
 | **Backend Management** | S3 Backend | Настройка удаленного хранения состояния |
